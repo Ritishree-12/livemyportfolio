@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/liveportfolio/static/css/main.7da9d100.css",
-    "main.js": "/liveportfolio/static/js/main.c40907fd.js",
-    "static/media/img1.png": "/liveportfolio/static/media/img1.6bee84e3323f18653849.png",
-    "static/media/myimg2.png": "/liveportfolio/static/media/myimg2.bab416c35973ca0b60d1.png",
-    "static/media/resume23.pdf": "/liveportfolio/static/media/resume23.4c5d1fbf5747a7b4dac1.pdf",
-    "static/media/programmer.png": "/liveportfolio/static/media/programmer.0362c457e04e71fe7dd7.png",
-    "index.html": "/liveportfolio/index.html",
-    "main.7da9d100.css.map": "/liveportfolio/static/css/main.7da9d100.css.map",
-    "main.c40907fd.js.map": "/liveportfolio/static/js/main.c40907fd.js.map"
+    "main.css": "/livemyportfolio/static/css/main.7da9d100.css",
+    "main.js": "/livemyportfolio/static/js/main.cfa77903.js",
+    "static/media/img1.png": "/livemyportfolio/static/media/img1.6bee84e3323f18653849.png",
+    "static/media/myimg2.png": "/livemyportfolio/static/media/myimg2.bab416c35973ca0b60d1.png",
+    "static/media/resume23.pdf": "/livemyportfolio/static/media/resume23.4c5d1fbf5747a7b4dac1.pdf",
+    "static/media/programmer.png": "/livemyportfolio/static/media/programmer.0362c457e04e71fe7dd7.png",
+    "index.html": "/livemyportfolio/index.html",
+    "main.7da9d100.css.map": "/livemyportfolio/static/css/main.7da9d100.css.map",
+    "main.cfa77903.js.map": "/livemyportfolio/static/js/main.cfa77903.js.map"
   },
   "entrypoints": [
     "static/css/main.7da9d100.css",
-    "static/js/main.c40907fd.js"
+    "static/js/main.cfa77903.js"
   ]
 }
