@@ -31,14 +31,14 @@ function About() {
                 <blockquote className="blockquote mb-0">
                   <p style={{ textAlign: "justify" }}>
                     Hi Everyone, I am <span className="purple">Ritishree </span>
-                    from <span className="purple">Paradeep, Odisha, India.</span><br />
-                    <br />I am a former student of Ravenshaw University,Cuttack.<br/><br/>
+                    from <span className="purple">Paradeep, Odisha.</span><br />
+                    <br />I am a former student of <span className="purple">Ravenshaw University,</span> Cuttack.<br/><br/>
                     where I pursued my passion for Computer Science,<br/> 
                     and it's here that I laid the foundation for my journey into the world of 
                      &nbsp; <span className="purple">software development.</span> 
                     <br /><br/>
                     I am currently employed as a software developer at
-                    Flaplive Innovation Pvt Ltd.
+                    <span className="purple"> Flaplive Innovation Pvt Ltd .</span>
                     <br />
                     <br />
                     Apart from coding, some other activities that I love to do!

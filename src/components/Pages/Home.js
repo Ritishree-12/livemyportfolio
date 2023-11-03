@@ -32,10 +32,12 @@ function Home() {
                 <Typewriter
                   options={{
                     strings: [
-                      "Software Developer",
-                      "Freelancer",
-                      "MERN Stack Developer",
-                      "Open Source Contributor",
+                      "I'M A",
+                      "Frontend Developer",
+                      "Software Developer"
+                      // "Freelancer",
+                      // "MERN Stack Developer",
+                      // "Open Source Contributor",
                     ],
                     autoStart: true,
                     loop: true,

@@ -14,11 +14,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={6} className="myAvtar">
-          <Tilt>
-              <img src={myimg} className="" height={'450px'} alt="avatar" />
-            </Tilt>
-          </Col>
+        
           <Col md={6} className= "home-about-description">         
             <h1 style={{ fontSize: "2.2em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
@@ -30,29 +26,12 @@ function Home2() {
               <br />
               <br />
               I am the embodiment of dedication, &nbsp;innovation, and a relentless pursuit of excellence.
-{/* 
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i> */}
             </p>
+          </Col>
+          <Col md={6} className="myAvtar">
+          <Tilt>
+              <img src={myimg} className="" height={'450px'} alt="avatar" />
+            </Tilt>
           </Col>
         </Row>
         <Row>
