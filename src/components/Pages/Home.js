@@ -7,65 +7,59 @@ import Typewriter from "typewriter-effect";
 import Home2 from "./Home2";
 // import Home2 from "./Home2";
 // import Type from "./Type";
-import Header from '../header/Header'
-import Footer from '../footer/Footer'
 
 function Home() {
   return (
-    <>
-      <Header />
-      <section>
-        <Container fluid className="home-section" id="home">
-          <Particle />
-          <Container className="home-content">
-            <Row>
-              <Col md={7} className="home-header">
-                <h1 style={{ paddingBottom: 15 }} className="heading">
-                  Hi There!{" "}
-                  <span className="wave" role="img" aria-labelledby="wave">
-                    👋🏻
-                  </span>
-                </h1>
+    <section>
+      <Container fluid className="home-section" id="home">
+        <Particle />
+        <Container className="home-content">
+          <Row>
+            <Col md={7} className="home-header">
+              <h1 style={{ paddingBottom: 15 }} className="heading">
+                Hi There!{" "}
+                <span className="wave" role="img" aria-labelledby="wave">
+                  👋🏻
+                </span>
+              </h1>
 
-                <h1 className="heading-name">
-                  I'M
-                  <strong className="main-name"> Ritishree</strong>
-                </h1>
+              <h1 className="heading-name">
+                I'M
+                <strong className="main-name"> Ritishree</strong>
+              </h1>
 
-                <div style={{ padding: 50, textAlign: "left" }}>
-                  <Typewriter
-                    options={{
-                      strings: [
-                        "I'M A",
-                        "Frontend Developer",
-                        "Software Developer"
-                        // "Freelancer",
-                        // "MERN Stack Developer",
-                        // "Open Source Contributor",
-                      ],
-                      autoStart: true,
-                      loop: true,
-                      deleteSpeed: 50,
-                    }}
-                  />
-                </div>
-              </Col>
-
-              <Col md={5} style={{ paddingBottom: 20 }}>
-                <img
-                  src={programmer}
-                  alt="home pic"
-                  className="img-fluid"
-                  style={{ maxHeight: "450px" }}
+              <div style={{ padding: 50, textAlign: "left" }}>
+                <Typewriter
+                  options={{
+                    strings: [
+                      "I'M A",
+                      "Frontend Developer",
+                      "Software Developer"
+                      // "Freelancer",
+                      // "MERN Stack Developer",
+                      // "Open Source Contributor",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    deleteSpeed: 50,
+                  }}
                 />
-              </Col>
-            </Row>
-          </Container>
+              </div>
+            </Col>
+
+            <Col md={5} style={{ paddingBottom: 20 }}>
+              <img
+                src={programmer}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
+            </Col>
+          </Row>
         </Container>
-        <Home2 />
-        <Footer />
-      </section>
-    </>
+      </Container>
+      <Home2/>
+    </section>
   );
 }
 

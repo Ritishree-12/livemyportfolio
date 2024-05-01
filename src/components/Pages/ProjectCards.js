@@ -3,13 +3,9 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-import Footer from "../footer/Footer";
-import Header from "../header/Header";
 
 const ProjectCards=(props)=>{
   return (
-    <>
-  <Header/>
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
@@ -39,8 +35,6 @@ const ProjectCards=(props)=>{
         )}
       </Card.Body>
     </Card>
-    {/* <Footer/> */}
-    </>
   );
 }
 export default ProjectCards;

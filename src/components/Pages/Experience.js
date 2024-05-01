@@ -18,13 +18,9 @@ import {
   SiPostgresql,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
-import Footer from "../footer/Footer";
-import Header from "../header/Header";
 
 const Experience=()=> {
   return (
-    <>
-    <Header/>
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
@@ -69,8 +65,6 @@ const Experience=()=> {
         <DiJava />
       </Col>
     </Row>
-    <Footer/>
-    </>
   );
 }
 

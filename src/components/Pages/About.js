@@ -8,13 +8,9 @@ import laptopImg from "../assets/img1.png";
 import Toolstacks from "../others/Toolstacks";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
-import Footer from "../footer/Footer";
-import Header from "../header/Header";
 
 function About() {
   return (
-    <>
-    <Header/>
     <Container fluid className="about-section">
       <Particle />
       <Container>
@@ -89,8 +85,6 @@ function About() {
         {/* <Github /> */}
       </Container>
     </Container>
-    <Footer/>
-    </>
   );
 }
 
