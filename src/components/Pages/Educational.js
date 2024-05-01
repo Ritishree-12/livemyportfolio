@@ -3,9 +3,13 @@ import ravenshaw from "../assets/ravenshaw.jpg";
 import svm from "../assets/svm.jpg";
 import kendrapada from "../assets/kendrapada.avif";
 import { Container } from 'react-bootstrap';
+import Footer from '../footer/Footer';
+import Header from '../header/Header';
 
 const Educational = () => {
   return (
+    <>
+<Header/>
     <Container fluid className="contact">
      <div className="card" style={{color:"#03A9F4"}}>
         <div className="img-box">
@@ -52,6 +56,8 @@ const Educational = () => {
         </div>
     </div>
 </Container>
+<Footer/>
+</>
   )
 }
 

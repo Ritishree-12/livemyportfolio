@@ -3,9 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../others/Particle";
 import quiz from "../assets/Quiz_Logo.png";
+import Footer from "../footer/Footer";
+import Header from "../header/Header";
 
 function Projects() {
   return (
+    <>
+    <Header/>
     <Container fluid className="project-section">
       <Particle />
       <Container>
@@ -86,6 +90,8 @@ function Projects() {
         </Row>
       </Container>
     </Container>
+    <Footer/>
+    </>
   );
 }
 

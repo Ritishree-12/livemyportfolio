@@ -4,6 +4,8 @@ import contacts from "../assets/img1.png";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
+import Header from '../header/Header';
+import Footer from '../footer/Footer';
 
 
 
@@ -36,6 +38,7 @@ const Contact = () => {
   }
   return (
     <>
+    <Header/>
       <Container fluid className="contact">
         <div className='card' style={{ color: '#009688' }}>
           <div class="img-box">
@@ -63,6 +66,7 @@ const Contact = () => {
                     <Alert variant="success">User Added Successfully!</Alert>
                 )}
       </Container>
+      <Footer/>
     </>
   )
 }

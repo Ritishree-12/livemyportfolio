@@ -681,7 +681,13 @@ html {
       font-size: 0.9rem;
   }
 }
-
+.welcome{
+  position: relative !important;
+  padding-top: 80px !important;
+  /* padding-bottom: 30px !important; */
+  background-image: var(--section-background-color) !important;
+  color:#62c226 !important;
+}
   
   .tech-icons {
     font-size: 4.5em !important;
@@ -697,6 +703,7 @@ html {
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
   }
+  
   
   @media (max-width: 767px) {
     .tech-icons {

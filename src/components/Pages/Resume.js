@@ -6,6 +6,8 @@ import pdf from "../assets/resume23.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import Header from "../header/Header";
+import Footer from "../footer/Footer";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const Resume=()=> {
@@ -17,6 +19,7 @@ const Resume=()=> {
 
   return (
     <div>
+      <Header/>
       <Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
@@ -54,6 +57,7 @@ const Resume=()=> {
           </Button>
         </Row>
       </Container>
+      <Footer/>
     </div>
   );
 }
