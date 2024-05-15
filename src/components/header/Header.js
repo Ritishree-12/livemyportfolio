@@ -108,7 +108,7 @@ const Header=()=> {
 
            
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/contact"
@@ -119,7 +119,7 @@ const Header=()=> {
                 />{" "}
                 Contact
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             {/* <Nav.Item className="fork-btn">
               <Button

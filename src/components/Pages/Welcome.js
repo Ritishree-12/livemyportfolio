@@ -10,16 +10,16 @@ import Footer from "../footer/Footer";
 function Home2() {
     return (
         <>
-        <Header/>
+        {/* <Header/> */}
         <Container  fluid className="welcome">
           
             <Container>
             <Particle/>
-                <h2 className="project-heading">Welcome to my Portfolio</h2>
+                {/* <h2 className="project-heading">Welcome to my Portfolio</h2> */}
                 <img src={welcome} className=""  alt="avatar" width={'50%'} height={'40%'} />
             </Container>
         </Container>
-        <Footer/>
+        {/* <Footer/> */}
         </>
     );
 }
