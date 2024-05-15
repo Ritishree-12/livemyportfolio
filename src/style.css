@@ -555,6 +555,11 @@ html {
     padding-top: 150px !important;
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
+    /* width: 100%; */
+    /* background-image: url("../src/components/assets/edu3.jpeg");  */
+
+    /* color: white !important; */
+    /* position: relative; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -562,21 +567,22 @@ html {
     gap: 100px 50px;
     padding: 100px 50px;
     height: 100vh;
-}
-.contact .card{
+  }
+  .contact .card{
     position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 450px;
+    align-items:center;
+    width: 350px;
     max-width: 100%;
-    height: 320px;
+    height: 300px;
     background-color: transparent !important;
+    /* background-image: url("../src/components/assets/edu3.jpeg"); */
     border-radius: 20px;
     transition: 0.5s;
+    /* box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15); */
     box-shadow: 0 3px 3px 4px rgba(19, 5, 100, 0.561) !important;
-}
+  }
   .contact .card:hover{
     height: 350px;
     cursor: pointer;
@@ -585,8 +591,8 @@ html {
     position: absolute;
     top: 20px;
     left: 23px;
-    width: 400px;
-    height: 230px;
+    width: 300px;
+    height: 180px;
     background: #333;
     border-radius: 12px;
     overflow: hidden;
