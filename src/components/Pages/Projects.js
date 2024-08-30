@@ -3,6 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../others/Particle";
 import quiz from "../assets/Quiz_Logo.png";
+import eztruck from "../assets/app-logo.png";
+import house from "../assets/house.svg";
+import Whatsapp from "../assets/whatsapp.png";
+import Balloon from "../assets/ballon.png";
+import glosent from "../assets/glosent.png";
 
 function Projects() {
   return (
@@ -21,66 +26,81 @@ function Projects() {
               imgPath={quiz}
               // isBlog={false}
               title="Quiz App"
-               description="The React Quiz App is an engaging and interactive web application designed to test users' knowledge on various topics through a fun and educational quiz experience. Built using React.js, this project is a dynamic and user-friendly quiz platform that provides an enjoyable way for users to learn and challenge themselves.
+              description="The React Quiz App is an engaging and interactive web application designed to test users' knowledge on various topics through a fun and educational quiz experience. Built using React.js, this project is a dynamic and user-friendly quiz platform that provides an enjoyable way for users to learn and challenge themselves.
 
 "
-              // demoLink="https://chatify-49.web.app/"
+            // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={bitsOfCode}
+
+              imgPath={eztruck}
               // isBlog={false}
-              // title="Bits-0f-C0de"
-              // description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              // demoLink="https://blogs.soumya-jit.tech/"
+              title="ezTruck App"
+              description="This is a logistick mobile App. It is usedful for them who has companies of transporting.
+               I have worked on frontend in this project .I created this project using React native library,
+                implemented firebase and react native map etc"
+            // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+            // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={editor}
+              imgPath={house}
               // isBlog={false}
-              // title="Editor.io"
-              // description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              // ghLink="https://github.com/soumyajit4419/Editor.io"
-              // demoLink="https://editor.soumya-jit.tech/"              
+              title="House Rent App"
+              description="Developed a cross-platform mobile application for house rentals using React Native.
+               The app includes a secure authentication system implemented with Firebase Authentication,
+                allowing users to sign up, log in, and manage their accounts.
+                 The app features a user-friendly interface where property owners can list their rentals,
+                  and potential tenants can browse and filter properties based on their preferences. This App is not dynamically implemented"
+              ghLink="https://github.com/Ritishree-12/rent-app"
+            // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={leaf}
+              imgPath={Whatsapp}
               // isBlog={false}
-              // title="Plant AI"
-              // description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              // ghLink="https://github.com/soumyajit4419/Plant_AI"
-              // demoLink="https://plant49-ai.herokuapp.com/"
+              title="Whatsapp Clone"
+              description="Designed and developed the user interface and static page of a WhatsApp clone using React.js. 
+            The project focuses on replicating the visual layout and design elements of the popular messaging app,
+             including chat windows, contact lists, and group chats and Firebase Authentication. 
+             This static implementation serves as a foundation for future development,
+              demonstrating proficiency in React.js, CSS, and responsive design principles.
+             The project highlights my ability to create visually appealing and user-friendly interfaces."
+            ghLink="https://github.com/Ritishree-12/whatsapp-clone"
+            // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={suicide}
-              // isBlog={false}
-              // title="Ai For Social Good"
-              // description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            imgPath={Balloon}
+            // isBlog={false}
+            title="Ecommerce"
+           description="I developed a static e-commerce website focused on party decorations, 
+           offering a seamless and user-friendly shopping experience. The site allows customers to browse,
+            search, and purchase a wide variety of party supplies and decorations,
+            from balloons and banners to tableware and themed sets.
+            I have created this website using react js ,javascript and css"
+            // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={emotion}
-              // isBlog={false}
-              // title="Face Recognition and Emotion Detection"
-              // description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              // Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            imgPath={glosent}
+            // isBlog={false}
+            title="Glosent"
+             description="This is a employee management mobile application with fully functionality.where employee can manage their daily accommodation, transportation and Attendance. I created this application using React native, firbase for authentication and notification message"
+            // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
         </Row>

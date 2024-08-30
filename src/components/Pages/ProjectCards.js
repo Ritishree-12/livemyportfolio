@@ -4,13 +4,20 @@ import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
-const ProjectCards=(props)=>{
+const ProjectCards = (props) => {
   return (
-    <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Body>
+    <Card className="project-card-view" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center',height:400 }}>
+      <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+        <Card.Img
+          variant="top"
+          src={props.imgPath}
+          alt="card-img"
+          style={{ width: '60%', height: 'auto' }}
+        />
+      </div>
+      <Card.Body style={{ textAlign: 'center' }}>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Text style={{ textAlign: "justify",fontSize:14 }}>
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
@@ -19,8 +26,6 @@ const ProjectCards=(props)=>{
         </Button>
         {"\n"}
         {"\n"}
-
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
         {!props.isBlog && props.demoLink && (
           <Button
@@ -36,5 +41,6 @@ const ProjectCards=(props)=>{
       </Card.Body>
     </Card>
   );
-}
+};
+
 export default ProjectCards;
