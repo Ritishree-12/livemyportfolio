@@ -19,11 +19,11 @@ const Contact = () => {
   const submitHandler = (e) => {
     e.preventDefault();
 
-    const serviceID = 'YOUR_SERVICE_ID';
-    const templateID = 'YOUR_TEMPLATE_ID';
-    const userID = 'YOUR_USER_ID';
+       const serviceID = 'service_skgtfkg';
+    const templateID = 'template_crmgzm6';
+    const apiKey = 'lBWpO-7zR9uOiVwTd';
 
-    emailjs.send(serviceID, templateID, inputValue, userID)
+    emailjs.send(serviceID, templateID, inputValue, apiKey)
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         setInputValue({ email: '', message: '' });
@@ -84,3 +84,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
